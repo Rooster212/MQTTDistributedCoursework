@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="dbc5e35f-4546-41dc-8cb7-92fc2187009d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://08346.net.dcs.hull.ac.uk/services/DirectoryService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="DirectoryService.xsd" MetadataType="Schema" ID="629cb90b-e081-4cee-b655-33c56b7c0350" SourceId="1" SourceUrl="http://08346.net.dcs.hull.ac.uk/services/DirectoryService.svc?xsd=xsd2" />
+    <MetadataFile FileName="DirectoryService1.xsd" MetadataType="Schema" ID="65e0c3c7-74c6-4e52-a4ca-cf7a37fb1d9c" SourceId="1" SourceUrl="http://08346.net.dcs.hull.ac.uk/services/DirectoryService.svc?xsd=xsd1" />
+    <MetadataFile FileName="DirectoryService.wsdl" MetadataType="Wsdl" ID="a15155e7-605d-4473-a461-8a3d3ef52794" SourceId="1" SourceUrl="http://08346.net.dcs.hull.ac.uk/services/DirectoryService.svc?wsdl" />
+    <MetadataFile FileName="DirectoryService2.xsd" MetadataType="Schema" ID="3df3e9ec-dea6-450d-933c-3005f8eee6e2" SourceId="1" SourceUrl="http://08346.net.dcs.hull.ac.uk/services/DirectoryService.svc?xsd=xsd0" />
+    <MetadataFile FileName="DirectoryService.disco" MetadataType="Disco" ID="4314ca4d-74d2-48a2-af26-8421ae3f8a61" SourceId="1" SourceUrl="http://08346.net.dcs.hull.ac.uk/services/DirectoryService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

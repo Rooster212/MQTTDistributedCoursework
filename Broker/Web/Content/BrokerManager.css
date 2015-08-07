@@ -1,0 +1,92 @@
+﻿html {
+    font-family: "Segoe UI", "Helvetica", Arial, Sans-Serif;
+}
+
+#main-body {
+    width: 100%;
+    padding: 5px;
+}
+
+#header-title {
+    display: inline-block;
+    margin: 5px;
+}
+
+#client-list-container {
+    width:100%
+}
+
+#client-list-tabs h2{
+    margin: 5px;
+}
+
+#client-list-tabs .scroller { 
+    overflow: auto; 
+} 
+
+#connectionStatus-container {
+    float: right;
+}
+
+#connectionStatus-title {
+    padding-right: 5px;
+}
+#connectionStatus-container h4 {
+    display: inline-block;
+    margin: 0;
+}
+
+#signalr-log {
+    overflow: hidden;
+}
+
+#signalr-log-table {
+    font-size: 10px;
+    overflow: hidden;
+}
+
+#shutdown-broker {
+    margin: 5px;
+}
+
+#connect-button {
+    display: none;
+    margin-left: 5px;
+}
+
+#signalr-tab-header {
+    float: right !important;
+}
+
+.send-recieve-icon img{
+    width: 50px;
+}
+
+.data-part {
+    -moz-min-width: 50px;
+    -ms-min-width: 50px;
+    -o-min-width: 50px;
+    -webkit-min-width: 50px;
+    min-width: 50px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table, td {
+   border: 1px solid black;
+}
+
+td {
+    padding: 3px;
+}
+
+tr:nth-child(odd) {
+    background-color: #f8bb59;
+}
+
+.packet-type {
+    padding: 5px;
+    text-align: center;
+}

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MQTTProtocol.MQTTBase" Collapsed="true">
+    <Position X="16.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAASACAAAAAAAAAAAAEAAACAAAAAIAAAAEAAAAAAA=</HashCode>
+      <FileName>MQTTBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MQTTProtocol.Subscription" Collapsed="true">
+    <Position X="32" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subscription.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MQTTProtocol.Exceptions.MQTTInvalidPacket" Collapsed="true">
+    <Position X="30.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\MQTTInvalidPacket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MQTTProtocol.Packets.Connack" Collapsed="true">
+    <Position X="25.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packets\Connack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MQTTProtocol.Packets.Connect" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAgBAAAAAAAAAAAAAAAAACIAAAAAA=</HashCode>
+      <FileName>Packets\Connect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MQTTProtocol.Packets.Disconnect" Collapsed="true">
+    <Position X="9.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packets\Disconnect.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MQTTProtocol.Packets.Packet" Collapsed="true">
+    <Position X="16.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAgAAAAAAEAgAAgAAAAQAAAAAAAAEQAQgBgAAA=</HashCode>
+      <FileName>Packets\Packet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MQTTProtocol.Packets.PacketWithPacketId" Collapsed="true">
+    <Position X="18.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packets\PacketWithPacketId.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MQTTProtocol.Packets.Pingreq" Collapsed="true">
+    <Position X="27.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packets\Pingreq.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MQTTProtocol.Packets.Pingresp" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packets\Pingresp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MQTTProtocol.Packets.Puback" Collapsed="true">
+    <Position X="16.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packets\Puback.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MQTTProtocol.Packets.Publish" Collapsed="true">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Packets\Publish.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MQTTProtocol.Packets.Suback" Collapsed="true">
+    <Position X="21" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Packets\Suback.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MQTTProtocol.Packets.Subscribe" Collapsed="true">
+    <Position X="23.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Packets\Subscribe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MQTTProtocol.Packets.Unsuback" Collapsed="true">
+    <Position X="14.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packets\Unsuback.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MQTTProtocol.Packets.Unsubscribe" Collapsed="true">
+    <Position X="18.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Packets\Unsubscribe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="MQTTProtocol.MQTTPacketTypes" Collapsed="true">
+    <Position X="30.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAQCAAAUAAAQAAgAgAAAAAAAAAgQAhAAAAAA=</HashCode>
+      <FileName>MQTTBase.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

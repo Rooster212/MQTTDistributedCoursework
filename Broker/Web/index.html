@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>MQTT Broker Manager</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <script type="text/javascript" src="Scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="Scripts/jquery.signalR-2.2.0.js"></script>
+    <script type="text/javascript" src="Scripts/jquery-ui.js"></script>
+    <script type="text/javascript" src="signalr/hubs"></script>
+    <script type="text/javascript" src="BrokerManager.js"></script>
+
+
+    <link rel="stylesheet" type="text/css" href="Content/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="Content/jquery-ui.structure.css" />
+    <link rel="stylesheet" type="text/css" href="Content/jquery-ui.theme.css" />
+    <link rel="stylesheet" type="text/css" href="Content/BrokerManager.css" />
+</head>
+<body>
+    <header id="header">
+        <h3 id="header-title">MQTT Broker Manager</h3>
+        <div id="connectionStatus-container">
+            <h4 id="connectionStatus-title">Connection status:</h4><h4 id="connectionStatus">Connecting...</h4><button id="connect-button">Connect</button>
+        </div>
+    </header>
+    <div id="main-body">
+        <div id="client-list-container">
+            <div id="client-list-tabs">
+                <div id="scroller">
+                    <ul id="client-tab-ul">
+                        <li><a href="#all-clients">Broker Summary</a></li>
+                        <li id="signalr-tab-header"><a href="#signalr-info">SignalR</a></li>
+                    </ul>
+                </div>
+                <div id="all-clients">
+                    <h2>Broker Summary</h2>
+                    <div>
+                        <button id="shutdown-broker">Shutdown Broker</button>
+                        <table id="clients-summary-table">
+                            <tr class="head">
+                                <td>
+                                    Unique ID
+                                </td>
+                                <td>
+                                    Client ID
+                                </td>
+                                <td>
+                                    IP Address
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div id="signalr-info">
+                    <h2>SignalR Info</h2>
+                    <div id="signalr-log">
+                        <table id="signalr-log-table"></table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="packet-list-container">
+
+        </div>
+    </div>
+    <footer id="footer">
+        <h4>MQTT Broker Manager - Student No. 201102762</h4>
+    </footer>
+</body>
+</html>

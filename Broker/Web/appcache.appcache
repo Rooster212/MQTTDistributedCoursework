@@ -1,0 +1,34 @@
+﻿CACHE MANIFEST
+# 2015-05-02
+
+# Explicitly cached entries
+index.html
+BrokerManager.js
+favicon.ico
+
+# offline.html will be displayed if the user is offline
+#FALLBACK:
+
+# All other resources (e.g. sites) require the user to be online. 
+NETWORK:
+*
+
+# Additional resources to cache
+CACHE:
+content/jquery-ui.css
+content/jquery-ui.structure.css
+content/jquery-ui.theme.css
+content/images/ui-bg_diagonals-thick_18_b81900_40x40.png
+content/images/ui-bg_diagonals-thick_20_666666_40x40.png
+content/images/ui-bg_flat_10_000000_40x100.png
+content/images/ui-bg_highlight-hard_100_eeeeee_1x100.png
+content/images/ui-bg_highlight-hard_100_f6f6f6_1x100.png
+content/images/ui-bg_highlight-hard_100_fdf5ce_1x100.png
+content/images/ui-bg_highlight-hard_35_f6a728_1x100.png
+content/images/ui-bg_highlight-hard_65_ffffff_1x100.png
+content/images/ui-bg_highlight-hard_75_ffe45c_1x100.png
+content/images/ui-icons_222222_256x240.png
+content/images/ui-icons_228ef1_256x240.png
+content/images/ui-icons_ef8c08_256x240.png
+content/images/ui-icons_ffd27a_256x240.png
+content/images/ui-icons_ffffff_256x240.png

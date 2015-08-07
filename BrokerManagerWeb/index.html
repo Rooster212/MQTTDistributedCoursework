@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Broker Manager</title>
+    <script type="text/javascript" src="Scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="Scripts/jquery-ui.js"></script>
+    <script type="text/javascript" src="Scripts/jquery.signalR-2.2.0.min.js"></script>
+    <script type="text/javascript" src="BrokerManager.js"></script>
+    <script src="http://localhost:5001/signalr/hubs"></script>
+
+    <link rel="stylesheet" type="text/css" href="Content/jquery-ui.css"/>
+    <link rel="stylesheet" type="text/css" href="Content/jquery-ui.structure.css"/>
+    <link rel="stylesheet" type="text/css" href="Content/jquery-ui.theme.css"/>
+    <link rel="stylesheet" type="text/css" href="Content/BrokerManager.css"/>
+</head>
+<body>
+<div id="header">
+    <h3>Hello world</h3>
+</div>
+<div id="main-body">
+    <div id="client-list-container">
+
+    </div>
+    <div id="packet-list-container">
+
+    </div>
+</div>
+
+</body>
+</html>
+<script>
+    $.connection.hub.url = "http://localhost:5001/signalr";
+    var brokerHub = $.connection.brokerHub;
+</script>
